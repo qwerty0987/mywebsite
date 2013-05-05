@@ -33,24 +33,23 @@ a:hover{
 
 body {
     background-color: #F8F8F8;
-
 /* IE10 Consumer Preview */ 
-background-image: -ms-linear-gradient(top, #FFF 0%, #EAEDFA 100%);
+background-image: -ms-linear-gradient(bottom, #FCFCFC 0%, #EDF0F9 100%);
 
 /* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #FFF 0%, #EAEDFA 100%);
+background-image: -moz-linear-gradient(bottom, #FCFCFC 0%, #EDF0F9 100%);
 
 /* Opera */ 
-background-image: -o-linear-gradient(top, #FFF 0%, #EAEDFA 100%);
+background-image: -o-linear-gradient(bottom, #FCFCFC 0%, #EDF0F9 100%);
 
 /* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFF), color-stop(1, #EAEDFA));
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FCFCFC), color-stop(1, #EDF0F9));
 
 /* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #FFF 0%, #EAEDFA 100%);
+background-image: -webkit-linear-gradient(bottom, #FCFCFC 0%, #EDF0F9 100%);
 
 /* W3C Markup, IE10 Release Preview */ 
-background-image: linear-gradient(to bottom, #FFF 0%, #EAEDFA 100%);
+background-image: linear-gradient(to top, #FCFCFC 0%, #EDF0F9 100%);
     padding-top: 20px;
     margin:0;
 }
@@ -176,7 +175,6 @@ p.subtitle
 .temp
 {
     padding-left:20px;
-    background-color:#FFF;
     border-radius: 10px;
 /*    margin-left: auto; */
 /*    margin-right: auto; */
