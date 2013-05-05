@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hyeyun Shin | <%= @title %></title>
+  <%= csrf_meta_tags %>
+  <%= render 'layouts/stylesheets' %>
+  <meta name="description" content="Hyeyun Shin Personal Website">
+  <meta name="keywords" content="Software Developer">
+  <meta name="author" content="Hyeyun Shin">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <a name="ontop" id="ontop"></a>
+  <div class="container">  
+  <div class="row">
+  <div class="span12">
+    <h1 class="title"><%= link_to "Hyeyun Shin", root_path, :class => "title" %></h1>
+    <p class="info">h3shin@uwaterloo.ca ▪ (226) 339-3578</p>
+  </div>
+  </div>
+  <div class="row">
+  <div class="span10">  
+      <%= yield %>
+  </div>
+  <div class="span2">
+  <div class="menu">
+  <ul class="nav">
+    <li><%= link_to "About", root_path %></li>
+    <li><%= link_to "Projects", pages_projects_path %></li>
+    <% linkedin_icon = image_tag("/images/linkedin_icon.png", :alt => "linkedin", :size => "30x30" ) %>
+    <%= link_to linkedin_icon, "http://ca.linkedin.com/pub/hyeyun-shin/29/251/b65/", :target => "_blank" %>
+    <% googleplus_icon = image_tag("/images/googleplus_icon.png", :alt => "googleplus", :size => "30x30" ) %>
+    <%= link_to googleplus_icon, "https://plus.google.com/u/0/118286447928746408208", :target => "_blank" %>
+  </ul>
+  </div>
+  </div>
+  </div>
+  <div class="row">
+  <div class="span10">
+  <br>
+  <p class="footer">hyeyunshin.com | May 2013</p>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
