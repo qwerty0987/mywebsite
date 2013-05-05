@@ -104,6 +104,7 @@ a.title{
 .body_part p{
     background: transparent;
     font-size: 14px;
+    font-family: Lucida Grande, sans-serif;
     margin: 0 0 1em 0;
 }
 
@@ -149,8 +150,8 @@ a.title{
     padding: 20px;
     box-shadow: 0px 0px 1px #B0B0B0;
     text-autospace:none;
-    font-family: Lucida Grande, sans-serif;
     font-size: 12px;
+    font-family: Lucida Grande, sans-serif;
     margin-bottom: 1em;
 }
 
