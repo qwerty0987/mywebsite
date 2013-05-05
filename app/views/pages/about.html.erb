@@ -1,3 +1,6 @@
+<div class="container">
+<div class="row">
+<div class="span10">
 <div class="flexslider">
   <ul class="slides">
     <li>
@@ -14,7 +17,14 @@
     </li>
   </ul>
 </div>
+</div>
+</div>
+</div>
 <div class="body_part">
+<div class="container">
+<div class="row">
+<div class="span10">
+
 <p>Hi. I graduated from University of Waterloo, Waterloo,
 Ontario with a BMath in Computer Science.<br>
 I mainly worked as a C++ developer during my internships.</p>
@@ -26,12 +36,15 @@ I think it was a good way to get a feel of it.
 I'm planning to build a legit Ruby on Rails web application in near future to have a better feel.</p>
 
 <p>I love programming and animals (especially dogs and llamas).</p>
-<br>
+<p><%= link_to "View Resume", "#", :class => "resume_title info", :id => "resume" %></p>
 </div>
-<p class="info"><%= link_to "Resume", "#", :class => "resume_title", :id => "resume" %></p>
-
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="span10">
 <div class="resume">
-
 <p class="subtitle">Summary</p>
 
 <p><b>▪ Programming</b>: C/C++, Java, Python,
@@ -168,8 +181,16 @@ Waterloo, ON, <i>01/09 - 04/09</i></p>
 
 <p>Enjoy doodling, squash, and making jokes</p>
 </div>
-<br>
-<% go_up_icon = image_tag( "/images/arrow_up.png", :alt => "Go up", :class => "go_up" ) %>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="span10">
 <div class="temp">
+<% go_up_icon = image_tag( "/images/arrow_up.png", :alt => "Go up", :class => "go_up" ) %>
 <%= link_to go_up_icon, "#ontop",  :class => "anchorLink" %>
+</div>
+</div>
+</div>
 </div>
