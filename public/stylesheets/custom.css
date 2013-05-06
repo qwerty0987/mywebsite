@@ -22,7 +22,7 @@ background-image: -webkit-linear-gradient(bottom, #FCFCFC 0%, #EDF0F9 100%);
 
 /* W3C Markup, IE10 Release Preview */ 
 background-image: linear-gradient(to top, #FCFCFC 0%, #EDF0F9 100%);
-
+background-repeat:no-repeat;
 }
 
 nav{
